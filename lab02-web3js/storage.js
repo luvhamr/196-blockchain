@@ -1,17 +1,17 @@
-// storage.js
+//storage.js
 // Replace with your deployed contract's address
  	const Web3 = require('web3').default;
 // Connect to Ethereum provider (update the URL if needed)
 const web3 = new Web3('http://127.0.0.1:8545');
 
-const contractAddress = '<your deployed contract address>';
+const contractAddress = '0xCF8CE3d485E886E212cD04Ab0e160A05bA234B71';
 // Replace with your deployed contract's ABI
-const contractABI = require('./build/contracts/storage.json').abi;
+const contractABI = require('./build/contracts/Storage.json').abi;
 // Create a contract instance
 const storageContract = new web3.eth.Contract(contractABI, contractAddress);
 
 // Example account (replace with a valid account from Ganache or your provider)
-const account = '<Your account address from ganache-cli>';
+const account = '0xA7a2244a4d239cbAfa9D8830f47799d77A9b04C6'; // Acct: #0
 // Function to store a number in the contract
 async function storeNumber(number) {
     try {
