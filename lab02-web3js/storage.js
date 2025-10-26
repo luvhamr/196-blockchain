@@ -1,4 +1,4 @@
-//storage.js
+// storage.js
 // Replace with your deployed contract's address
  	const Web3 = require('web3').default;
 // Connect to Ethereum provider (update the URL if needed)
