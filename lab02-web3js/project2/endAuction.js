@@ -3,7 +3,7 @@ const web3 = new Web3("http://127.0.0.1:8545"); // Adjust to your provider URL
 
 // Contract ABI and Address
 const contractABI = require('./build/contracts/SimpleAuction.json').abi;
-const contractAddress = "<your contract address goes here>";
+const contractAddress = '0xC6b8aBEE2E3dd82230BB5aabEc6832Bc248460FE';
 
 const auctionContract = new web3.eth.Contract(contractABI, contractAddress);
 
