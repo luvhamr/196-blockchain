@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum EnumAndEventsExample.ShippingStatus",
+						"name": "newStatus",
+						"type": "uint8"
+					}
+				],
+				"name": "StatusChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "cancelProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deliverProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shipProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum EnumAndEventsExample.ShippingStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab01-smart-contracts-with-solidity/artifacts/Codes/event_enum.sol": "EnumAndEventsExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab01-smart-contracts-with-solidity/artifacts/Codes/event_enum.sol": {
+			"keccak256": "0x1fdfce5a0f7cb26d917e32037e3a169756bcf59f2b835f5768b95100083d778b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0723ed9d8b91c814b56aa7e28e7059cce848e83ce92ddc620161e83d4623d393",
+				"dweb:/ipfs/QmNeQpPDpe7S82d1y8JeCvFWd3VQvMikPVr16yBiHGSs4C"
+			]
+		}
+	},
+	"version": 1
+}
